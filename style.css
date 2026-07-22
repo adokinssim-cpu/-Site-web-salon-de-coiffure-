@@ -9,13 +9,13 @@ Style.css
 
 body {
     background-color: #f9f9f9;
-    color: #111;
+    color: #8fc59f;
     line-height: 1.6;
 }
 
 .en-tête {
-    background-color: #1a1a1a;
-    color: #fff;
+    background-color: #008751;
+    color: #ffffff;
     padding: 20px;
     text-align: center;
     position: sticky;
@@ -44,7 +44,7 @@ body {
 }
 
 .navbar a:hover {
-    color: #ffcc00;
+    color: #C69214;
 }
 
 #Accueil {
@@ -59,28 +59,28 @@ body {
 }
 
 .AccueilContent {
-    background: rgba(30, 30, 30, 0.85);
+    background: rgba(198, 146, 30, 0.9);
     padding: 40px 25px;
     border-radius: 10px;
     max-width: 500px;
-    color: #fff;
+    color: 09da33;
 }
 
 .AccueilContent h1 {
-    font-size: 1.8rem;
+    font-size: 1.9rem;
     margin-bottom: 20px;
     line-height: 1.3;
 }
 
 .AccueilContent p {
-    font-size: 0.95rem;
+    font-size: 1.3rem;
     margin-bottom: 30px;
     color: #e0e0e0;
 }
 
 .button, .sectionContact button[type="submit"] {
-    background-color: #ffcc00;
-    color: #2017a9;
+    background-color: #E8112d;
+    color: #ffffff;
     border: none;
     padding: 12px 25px;
     font-size: 1rem;
