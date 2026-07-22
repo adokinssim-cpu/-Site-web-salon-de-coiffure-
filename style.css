@@ -133,6 +133,13 @@ section h1 {
     background-color: #fff;
 }
 
+/* Le bloc img général doit être ici, complètement séparé */
+img {
+  width: 100%;
+  height: 220px;
+  object-fit: cover;
+  display: block;
+}
 /* Style spécifique pour afficher deux images côte à côte (ex: Soins Capillaires) */
 .card-images {
     display: flex;
