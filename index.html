@@ -63,12 +63,18 @@
     <section id="Contact" class="sectionContact">
         <div class="ContactContent">
             <h1 class="">Contatez-nous</h1>
-                <form action="" class="">
-                  <input type="text" id="Nom" name="Nom" placeholder="Nom"><br>
-                  <input type="text" id="Nom" name="Nom" placeholder="Email"><br>
-                <textarea id="message" name="message pl" placeholder="Message"></textarea><br>
-              <button type="submit" class="">Envoyer</button>
-            </form>
+               <form action="https://formspree.io/f/xykrpvnz" method="POST">
+                 <label for="nom">Nom et Prénom</label>
+                    <input type="text" id="nom" name="nom" placeholder="Entrez votre nom" required>
+
+                        <label for="email">Adresse email</label>
+                        <input type="email" id="email" name="email" placeholder="Entrez votre email" required>
+  
+                       <label for="message">Votre message</label>
+                     <textarea id="message" name="message" rows="5" placeholder="Écrivez votre message ici..." required></textarea>
+
+                <button type="submit">Envoyer le message</button>
+               </form> 
         </div>
     </section>
 
