@@ -1,6 +1,6 @@
 Style.css
-/* --- Style Général --- */
-* {
+
+{
     margin: 0;
     padding: 0;
     box-sizing: border-box;
@@ -13,7 +13,6 @@ body {
     line-height: 1.6;
 }
 
-/* --- En-tête (Header & Navigation) --- */
 .en-tête {
     background-color: #1a1a1a;
     color: #fff;
@@ -48,7 +47,6 @@ body {
     color: #ffcc00;
 }
 
-/* --- Section Accueil (Hero) --- */
 #Accueil {
     position: relative;
     height: 90vh;
@@ -80,7 +78,6 @@ body {
     color: #e0e0e0;
 }
 
-/* Boutons */
 .button, .sectionContact button[type="submit"] {
     background-color: #ffcc00;
     color: #2017a9;
@@ -178,7 +175,6 @@ img {
     font-size: 1.05rem;
     color: #333;
 }
-
 
 .ContactContent {
     max-width: 500px;
